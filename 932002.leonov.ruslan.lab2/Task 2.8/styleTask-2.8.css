@@ -1,0 +1,30 @@
+.bisqueFig{
+    position:absolute;
+    background-color:bisque;
+    height: 70px;
+    width: 150px;
+    z-index: 1;
+}
+.aqueFig{
+    position:relative;
+    background-color:aqua;
+    max-width:100%;
+    
+}
+.grayFif{
+    position:relative;
+    background-color:gray ;
+    height: inherit;
+    left:150px;
+}
+.greenFif{
+    position: fixed;
+    background-color: limegreen;
+    width:100%;
+    height:60px;
+    bottom:0;
+
+}
+p{
+    margin:0;
+}

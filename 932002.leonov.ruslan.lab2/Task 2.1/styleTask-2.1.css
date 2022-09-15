@@ -1,0 +1,43 @@
+body
+{
+    margin:0;
+    
+}
+header {
+    background-color:#EAEAEA;
+    width: 100%;
+    height: 50px;
+    color:black;
+    padding-left: 7px;
+    text-align: left;    
+}
+.leftcol {
+    width:200px;
+    float:left;
+    background-color: #C8FC98;
+ }
+ 
+ footer {
+    clear: both;
+    height:20px;
+    width:100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+.navig {
+    text-align: center;
+}
+b{
+    padding-left:5px;
+    padding-right: 5px;
+}
+p{
+    margin:0;
+    padding-left:5px;
+    padding-right: 5px;
+}
+h2{
+    margin:0;
+}

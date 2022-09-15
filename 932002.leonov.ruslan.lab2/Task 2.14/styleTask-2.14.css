@@ -1,0 +1,58 @@
+p{
+    margin:0;
+}
+td{
+    vertical-align: top;
+    padding:0;
+}
+.bisqueFig{
+    position:absolute;
+    background-color:bisque;
+    height: 50px;
+    width: 50%;
+    padding: 10px;
+    float:left;
+    z-index:1;
+}
+.bisqueFig>li{
+    display: list-item;
+}
+.aqueFig{
+    position:relative;
+    width:auto;
+    height:auto;
+    background-color:aqua;
+    border-spacing:0;
+    border: 2px solid green;
+    margin:10px;
+}
+.grayFif{
+    position:relative;
+    width:auto;
+    height: auto;
+    margin-left: 16.5% ;
+    background-color:darkgray ;
+    z-index: 2;
+}
+@media screen and (max-width:800px){
+    .bisqueFig{
+        position:none;
+        background-color: bisque;
+        height: auto;
+        width: auto;
+        left:0;
+        right:0;
+        margin:30px 0 30px 0;
+        text-indent: 30px;
+    }
+    .bisqueFig>li{
+        display:inline;
+    }
+    .grayFif{
+        height: auto;
+        width: auto;
+        margin: 100px 0 0 0;
+        clear: left;
+        background-color: darkgray;
+    }
+}

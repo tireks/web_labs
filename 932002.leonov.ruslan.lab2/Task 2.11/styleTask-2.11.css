@@ -1,0 +1,12 @@
+.aqua{
+    position:relative;
+    background-color:aqua;
+    max-width:100%;
+    border:2px solid green;
+    height:265px;
+}
+p{
+    margin:0;
+}
+
+

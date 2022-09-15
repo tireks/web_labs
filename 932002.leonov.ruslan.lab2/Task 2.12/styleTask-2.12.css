@@ -1,0 +1,42 @@
+p{
+    margin:0;
+}
+.bisqueFig{
+    background-color:bisque;
+    height: 60px;
+    width: 15%;
+    padding: 10px;
+    float:left;
+}
+.aqueFig{
+    width:auto;
+    height:auto;
+    background-color:aqua;
+    border-spacing:0;
+    border: 2px solid green;
+}
+.grayFif{
+    width:auto;
+    height: auto;
+    margin-left: 16.5% ;
+    background-color:darkgray ;
+}
+@media screen and (max-width:800px){
+    .bisqueFig{
+        background-color: bisque;
+        height: 50px;
+        width: 90px;
+        padding: 20px;
+        float: left;
+
+    }
+    .grayFif{
+        height: auto;
+        width: 70%;
+        margin: 0%;
+        clear: left;
+        float: left;
+        color: black;
+        background-color: darkgray;
+    }
+}

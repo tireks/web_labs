@@ -1,0 +1,54 @@
+p{
+    margin: 0;
+}
+.staticDiv{
+    position:static;
+    background-color:blueviolet;
+    height: 100px;
+    width: 150px;
+    color:white;
+}
+.relativeDiv{
+    position:relative;
+    background-color:darkred;
+    height: 100px;
+    width: 150px;
+    color:white;
+    top: -18px;
+}
+.relativeDiv2{
+    position:relative;
+    background-color:peru;
+    height: 100px;
+    width: 150px;
+    color:white;
+    top: -68px;
+    left:30px;
+}
+.relativeDiv3{
+    position:relative;
+    background-color:indianred;
+    height: 350px;
+    width: 550px;
+    color:white;
+    top: -38px;
+}
+.absolutDiv{
+    position:absolute;
+    background-color:indigo;
+    height: 200px;
+    width: 275px;
+    color:white;
+    top:100px;
+    left:275px;
+}
+.fixedDiv{
+    position:fixed;
+    background-color:green;
+    height: 100px;
+    width: 100px;
+    color:white;
+    bottom:0;
+    right:0;
+}
+
