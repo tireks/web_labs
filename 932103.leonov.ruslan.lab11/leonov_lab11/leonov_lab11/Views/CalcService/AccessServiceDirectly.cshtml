@@ -1,0 +1,43 @@
+﻿@using leonov_lab11.Services
+@inject IServiceActions service
+@{
+    ViewData["Title"] = "AccessServiceDirectly - Backend1";
+}
+<h1>@ViewData["Title"]</h1>
+
+<b>Rand first value: </b> @service.value1
+<br />
+<b>Rand second value: </b> @service.value2
+<br />
+<br />
+
+<b>Add: </b>
+<br />
+@service.value1 +  @service.value2 = @service.sum()
+<br />
+<br />
+
+<b>Sub : </b>
+<br />
+@service.value1 -  @service.value2 =  @service.subtraction()
+<br />
+<br />
+
+<b>Mult: </b>
+<br />
+@service.value1 *  @service.value2 =  @service.multiply()
+<br />
+<br />
+
+<b>Div:</b>
+<br />
+@service.value1 /  @service.value2 =  @if (service.divide() != -1)
+{
+    @service.divide()
+}
+else
+{
+    <span>Division by zero!</span>
+}
+<br />
+<br />

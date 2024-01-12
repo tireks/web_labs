@@ -1,0 +1,41 @@
+﻿@model leonov_lab11.Models.Actions
+@{
+    ViewData["Title"] = "PassUsingModel - Backend1";
+}
+<h1>@ViewData["Title"]</h1>
+
+<b>Rand first value: </b> @Model.value1
+<br />
+<b>Rand second value: </b> @Model.value2
+<br />
+<br />
+
+<b>Add: </b>
+<br />
+@Model.value1 +  @Model.value2 = @Model.sum
+<br />
+<br />
+
+<b>Sub: </b>
+<br />
+@Model.value1 -  @Model.value2 =  @Model.subtraction
+<br />
+<br />
+
+<b>Mult: </b>
+@Model.value1 *  @Model.value2 =  @Model.multiply
+<br />
+<br />
+
+<b>Div:</b>
+<br />
+@Model.value1 /  @Model.value2 =  @if (Model.value2 != 0)
+{
+    @Model.divide
+}
+else
+{
+    <span>Division by zero!</span>
+}
+<br />
+<br />
