@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\leonov_lab12.props" />
+</Project>
